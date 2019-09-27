@@ -8,7 +8,9 @@ public class Main {
         new App_web(sensor);
         new App_movil(sensor);
 
-        sensor.update();
-        sensor.update();
+        System.out.println("First temp change: 8");
+        sensor.setTemp(8);
+        System.out.println("First temp change: 15");
+        sensor.setTemp(15);
     }
 }
