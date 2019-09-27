@@ -8,7 +8,7 @@ public class Main {
         new App_web(sensor);
         new App_movil(sensor);
 
-        sensor.update();
+        sensor.setTemp(8);
         sensor.update();
     }
 }
