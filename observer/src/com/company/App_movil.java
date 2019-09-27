@@ -1,4 +1,4 @@
-package con.company;
+package com.company;
 
 public class App_movil extends Observer {
   private Sensor sensor;
