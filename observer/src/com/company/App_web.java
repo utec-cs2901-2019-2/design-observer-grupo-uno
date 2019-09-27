@@ -1,13 +1,12 @@
-package company;
+package com.company;
 
 public class App_web extends Observer {
   private Sensor sensor;
-  public App_web(Sensor _sensor)
-  {
+  public App_web(Sensor _sensor){
     sensor = _sensor;
   }
-  public void update()
-  {
+  @Override
+  public void update(){
     System.printl("La nueva temperatura es: " + sensor.getTemp());
   }
 }
