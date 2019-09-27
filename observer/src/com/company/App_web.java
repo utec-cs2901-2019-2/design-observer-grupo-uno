@@ -1,4 +1,4 @@
-package company;
+package com.company;
 
 public class App_web extends Observer {
   private Sensor sensor;
@@ -8,6 +8,6 @@ public class App_web extends Observer {
   }
   public void update()
   {
-    System.printl("La nueva temperatura es: " + sensor.getTemp());
+    System.out.println("La nueva temperatura es: " + sensor.getTemp());
   }
 }
